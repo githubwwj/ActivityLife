@@ -21,7 +21,11 @@ public class MainActivity extends AppCompatActivity {
 
         Log.e(TAG, "====onCreate=======");
         initView();
+        initData();
 
+    }
+
+    private void initData() {
     }
 
     private void initView() {
@@ -57,11 +61,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    //界面可见
     @Override
     protected void onStart() {
         super.onStart();
         Log.e(TAG, "====onStart=======");
     }
+
 
     @Override
     protected void onRestart() {
@@ -69,18 +75,21 @@ public class MainActivity extends AppCompatActivity {
         Log.e(TAG, "====onRestart=======");
     }
 
+    //在前台，可以和用户交互
     @Override
     protected void onResume() {
         super.onResume();
         Log.e(TAG, "====onResume=======");
     }
 
+    //不在前台
     @Override
     protected void onPause() {
         super.onPause();
         Log.e(TAG, "====onPause=======");
     }
 
+    //界面不可见
     @Override
     protected void onStop() {
         super.onStop();

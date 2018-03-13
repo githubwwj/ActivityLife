@@ -5,6 +5,7 @@
 |---|----|-----|
 |1|Activity的生命周期|http://www.iqiyi.com/w_19ruz3e3r1.html|
 |2|Activity的生命周期详解|http://www.iqiyi.com/w_19rww621m9.html|
+|2|Activity可见与前台|http://www.iqiyi.com/w_19rwwa9595.html#vfrm=16-1-1-1|
 
 
 

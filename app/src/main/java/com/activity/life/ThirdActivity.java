@@ -9,20 +9,20 @@ import android.view.View;
 /**
  * Created by Administrator on 2017/10/29 0029.
  */
-public class SecondActivity extends AppCompatActivity {
+public class ThirdActivity extends AppCompatActivity {
 
     private String TAG=getClass().getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second);
+        setContentView(R.layout.activity_third);
         Log.e(TAG,"====onCreate=======");
 
-        findViewById(R.id.tvStartSecond).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.tvStartMain).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SecondActivity.this, ThirdActivity.class);
+                Intent intent = new Intent(ThirdActivity.this, MainActivity.class);
                 intent.putExtra("extra_test","hi");
                 startActivity(intent);
             }

@@ -5,8 +5,8 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:text="我是第二个Activity，点击启动第三个Actviity"
-        android:id="@+id/tvStartSecond"
+        android:text="我是第三个Activity，点击启动MainActivity"
+        android:id="@+id/tvStartMain"
         android:gravity="center"
         android:layout_height="match_parent" />
 
